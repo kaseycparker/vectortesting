@@ -55,7 +55,7 @@ async function findSimilarDocuments(embedding) {
 }
 
 async function main() {
-    const query = 'your_query'; // Replace with your query.
+    const query = 'What does Paulines uncle leave her?'; // Replace with your query.
     
     try {
         const embedding = await getEmbedding(query);
