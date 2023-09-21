@@ -1,3 +1,7 @@
+# prepreqs:
+# setup a Neo4J Aura DB: https://login.neo4j.com/
+# pip install langchain openai wikipedia tiktoken neo4j
+
 # Example Data Set
 
 from langchain.document_loaders import WikipediaLoader
