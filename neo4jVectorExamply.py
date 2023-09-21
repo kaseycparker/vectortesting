@@ -19,6 +19,10 @@ documents = text_splitter.split_documents(raw_documents)
 for d in documents:
     del d.metadata["summary"]
 
+# DB connection, replace with url, username and password for Aura DB
+url = "AuraDB URL" 
+username = "username"
+password = "password"
 
 # code to customize the node label, text and embedding properties
 neo4j_db = Neo4jVector.from_documents(
