@@ -1,3 +1,5 @@
+# prereqs: use Atlas account to create a cluster, database, collection, trigger, index and load sample data. Follow tutorial: https://www.mongodb.com/library/vector-search/semantic-search-mongodb-using-atlas-vector-search?lb-mode=overlay
+
 const axios = require('axios');
 const MongoClient = require('mongodb').MongoClient;
 
